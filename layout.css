@@ -1,0 +1,129 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* RESET SLUT*/
+
+@media (width>=800px) {
+  /* INDEX */
+  .grid_2-1 {
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    gap: 20px;
+  }
+
+  .grid_1-1 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 20px;
+  }
+
+  .order {
+    order: -1;
+  }
+
+  .knap {
+    display: inline-block;
+    background-color: rgb(219, 101, 101);
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 1rem;
+  }
+
+  .knap:hover {
+    background-color: rgb(187, 44, 44);
+    color: black;
+  }
+  /* INDEX SLUT*/
+
+  /* OPERATIVSYSTEMER */
+  .grid_5-3 {
+    grid-template-columns: 5fr 3fr;
+    display: grid;
+    gap: 50px;
+  }
+
+  .grid_2-3 {
+    grid-template-columns: 2fr 3fr;
+    display: grid;
+    gap: 50px;
+  }
+
+  .grid_3-2 {
+    grid-template-columns: 3fr 2fr;
+    display: grid;
+    gap: 50px;
+  }
+  /* OPERATIVSYSTEMER SLUT */
+
+  /* GALLERI */
+  /* Tekst */
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .p_galleri {
+    max-width: 65ch;
+  }
+
+  /* Tekst */
+
+  /* Billeder */
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .grid_1-1-1-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .Apple_84 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+
+  .Computer_tastatur {
+    grid-column: 2/5;
+  }
+
+  .En_macbook {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .Kodning {
+    grid-column: 3/5;
+  }
+  /* Billeder slut */
+  /* GALLERI SLUT */
+
+  /* KOMPONENETER */
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex_col > :last-child {
+    margin-top: auto;
+  }
+  /* KOMPONENETER SLUT*/
+}

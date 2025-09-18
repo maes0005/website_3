@@ -1,0 +1,59 @@
+/* HER KOMMER MENU-CSS FRA ULF */
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(226, 134, 134);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 101, 101);
+  border-radius: 1rem;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+/* HER SLUTTER MENU-CSS FRA ULF */
